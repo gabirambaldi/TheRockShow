@@ -1,0 +1,76 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="estilo6.css">
+<script src="java.js"></script>
+</head>
+
+
+<body>
+    <header class="header1">
+    <div class="logo"><a href="index.html"><img src="img_inicial_quemsomos/logo.png" width="120px"></a></div>
+    <div class="nav1">
+    <ul class="menu1">
+        <li><a href="quemsomos.html">Quem Somos</a></li>
+        <li><a href="produto1.html">Acessórios e Vestuário</a></li>
+        <li><a href="produto2.html">Discos e DVDs</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+    </div>
+    </header>
+
+    <h1 class="titulodestaque1">Cadastrar:</h1>
+
+    <form>
+        <label for="lblname" id="nome">Nome:</label>
+        <input type="text" id="txtname" name="txtname" size="50" required><br><br>
+        <label for="lblcpf">CPF:</label>
+        <input type="text" id="txtcpf" name="txtcpf" size="14" required oninput=mascara_cpf()><br><br>
+        <label for="lblcep">CEP:</label>
+        <input type="text" id="txtcep" name="txtcep" size="10" placeholder="" required oninput=mascara_cep()><br><br>
+        <label for="lbltel">Telefone:</label>
+        <input type="tel" id="txttelefone" name="txttelefone" placeholder="" size="11" maxlength="16" oninput=mascara_telefone()><br><br>
+        <label for="lblemail">Email:</label>
+        <input type="email" id="txtemail" name="txtemail" size="20" required><br><br>
+        <label for="lblsenha">Senha:</label>
+        <input type="password" id="txtsenha" name="txtsenha" size="30" required><br><br>
+        <label for="lblsenha">Repetir senha:</label>
+        <input type="password" id="txtrepetirsenha" name="txtrepetirsenha" size="30" required><br><br>
+        <input type="submit" value="Entrar" class="btnentrar" onclick="Nome(), Tel(), Cep(), Cpf()">
+    </form>
+    <h4 class="minidescricao">Já tem uma conta? <a href="login.html" class="linkbranco">Faça login</a></h4>
+    <footer class="footer1">
+
+        <ul class="lista">
+           <li class="tituloli">Atendimento</li>
+           <li><a href="contato.html">Fale Conosco</a></li>
+           <li><a href="contato.html">Contato</a></li>
+       </ul>
+   
+        <ul class="lista">
+           <li class="tituloli">Sobre a loja</li>
+           <li><a href="quemsomos.html">Quem somos</a></li>
+           <li><a href="contato.html">Localização</a></li>
+       </ul>
+   
+       <ul class="lista">
+           <li class="tituloli">Produtos</li>
+           <li><a href="produto1.html">Acessórios e Vestuário</a></li>
+           <li><a href="produto2.html">Discos e DVDs</a></li>
+       </ul>
+   
+       <ul>
+        <li class="copyright">© COPYRIGHT 2022 | The Rock Show</li>
+        <li class="copyright">Imagens dos discos retiradas de Universal Music Store</li>
+        </ul>
+   
+      <div class="redes">
+       <img src="img_inicial_quemsomos/tiktok-removebg-preview.png" width="54px">
+       <img src="img_inicial_quemsomos/youtube-removebg-preview.png" width="53px">
+       <img src="img_inicial_quemsomos/twitter-removebg-preview.png" width="48px">
+       <img src="img_inicial_quemsomos/insta-removebg-preview.png" width="44px">
+       </div>
+        
+       </footer>   
+</body>
+</html>

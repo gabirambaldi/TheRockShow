@@ -1,0 +1,105 @@
+body {margin: 0;
+        width: 100%;
+}
+
+.header1 {display: grid;
+		  grid-template-areas: "logo . ."
+		  			"logo nav nav"
+		  			"logo . .";
+		  background: #F4E3D7;
+		  justify-content: center;
+		  column-gap: 80px;
+		  position: sticky;
+		  margin-top: -0.9vh;
+		  padding: 0.8em;
+}
+
+.logo {grid-area: logo;
+}
+
+.nav1 {grid-area: nav;}
+
+.menu1 {list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
+	column-gap: 50px;
+	align-content: center;
+	color:#693E36;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.banner {width: auto;
+         height: 433px;
+}
+
+.titulodestaque {text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 36px;
+                color: #FFFFFF;
+                background: #835A52;
+                padding: 0.8em;
+                margin-top: 0;
+                padding-bottom: 1em;
+}
+
+.tituloquemsomos {color: #E7DED8;
+                  font-size: 36px;
+                  font-family: 'Courier New', Courier, monospace;
+                  list-style: none;
+                  text-align: center;
+                  font-weight: bold;
+                  margin-right: 1em;
+                  margin-bottom: 0.5em;
+}
+
+.grid1 {display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        background: #693E36;
+        margin-top: -4vh;
+        position: sticky;
+}
+
+.textomisval {list-style: none;
+}
+
+.texto {font-family: 'Courier New', Courier, monospace;
+        color: #FFFFFF;
+        font-weight: 500;
+
+}
+
+
+.lista {list-style: none;
+        line-height: 1.5em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tituloli {font-size: 18px;
+}
+
+.copyright {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: lighter;
+            list-style: none;}
+
+.footer1 {display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          background: #BC9E99;
+          color: #693E36;
+          font-weight: 400;
+          padding-top: 1em;
+          align-content: center;
+}
+
+.redes {column-gap: 0;
+}
+
+a:link, a:visited {text-decoration: none;
+}
+
+a:hover, a:active {text-decoration: underline;
+  }
+
+a {color: #693E36;
+}
+ 

@@ -1,0 +1,103 @@
+body {margin: 0;
+	width: 100%;
+}
+.header1 {display: grid;
+		  grid-template-areas: "logo . ."
+		  						"logo nav nav"
+		  						"logo . .";
+		  background: #F4E3D7;
+		  justify-content: center;
+		  column-gap: 80px;
+		  position: sticky;
+		  margin-top: -0.9vh;
+		  padding: 0.8em;
+}
+
+.logo {grid-area: logo;
+}
+
+.nav1 {grid-area: nav;}
+
+.menu1 {list-style: none;
+		display: grid;
+		grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
+		column-gap: 50px;
+		align-content: center;
+		color:#693E36;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.grid1 {display: grid;
+		grid-template-columns: 12em 12em 12em 12em 12em;
+		column-gap: 8px;
+		justify-content: center;
+		background: #F4E3D7;
+		padding-top: 0.8em;
+		position: sticky;
+		margin-top: -5vh;
+}
+
+.titulodestaque {text-align: center;
+				 font-family: 'Courier New', Courier, monospace;
+				 font-size: 36px;
+				 color: #E7DED8;
+				 background: #693E36;
+				 padding-top: 0.8em;
+				 padding-bottom: 1em;
+				 margin-top: 0;
+}
+
+.banner {width: auto;
+		 height: 400px;}
+
+.grid2 {display: grid;
+	    grid-template-columns: 1fr 1fr 1fr 1fr;
+		background: #693E36;
+		color: #FFFFFF;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		justify-items: center;
+		margin-top: -5vh;
+		position: sticky;
+}
+
+.categoria {list-style: none;
+			line-height: 1.5em; 
+		   }
+	
+.lista {list-style: none;
+		line-height: 1.5em;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tituloli {font-size: 18px;
+}
+
+.copyright {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			font-weight: lighter;
+			list-style: none;}
+
+.footer1 {display: grid;
+		  grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+		  background: #BC9E99;
+		  color: #693E36;
+		  font-weight: 400;
+		  padding-top: 1em;
+		  align-content: center;
+}
+
+.redes {column-gap: 0;
+}
+
+.titulocategoria {font-size: 18px;}
+
+a:link, a:visited {text-decoration: none;
+}
+
+a:hover, a:active {text-decoration: underline;
+  }
+
+a {color: #693E36;
+}
+
+.linkbranco {color: #FFFFFF;
+}
